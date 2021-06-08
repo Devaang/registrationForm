@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Registration Form</title>
+</head>
+<body>
+    <section class="register">
+        <div class="container-fluid">
+
+            <div class="cardColor card text-white " >
+                <div class="card-header"><h1 class="h-heading">Registration Form</h1></div>
+                <div class="card-body">
+                    <form>
+                        <div class="allign form-row">
+                            <div class=" col-lg-6 col-md-12 col-sm-12 ">
+                                <label for="fName">First Name</label>
+                                <input type="text" class="form-control" id="fName" placeholder="First Name">
+                            </div>
+                            <div class=" col-lg-6 col-md-12 col-sm-12">
+                                <label for="lName">Last Name</label>
+                                <input type="text" class="form-control" id="lName" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class=" allign row">
+                            <div class="form-group col-lg-4 col-md-12 col-sm-12">
+                                <label for="emailInput">Email</label>
+                                <input type="email" class="form-control" id="emailInput" placeholder="">
+                            </div>
+                            <div class=" col-lg-4 col-md-12 col-sm-12">
+                                <label for="mobileInput">Contact number</label>
+                                <input type="text" class="form-control" id="mobileInput" placeholder="">
+                            </div>
+                            <div class=" col-lg-4 col-md-12 col-sm-12">
+                                <label for="inputAddress">Address</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="">
+                            </div>
+                        </div>
+                    
+                        <div class="allign row">
+                            <div class=" col-lg-4 col-md-12 col-sm-12">
+                                <label for="inputCity">City</label>
+                                <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class=" col-lg-4 col-md-12 col-sm-12">
+                                <label for="inputState">State</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected>Select...</option>
+                                    <option>State 1</option>
+                                    <option>State 2</option>
+                                    <option>State 3</option>
+                                    <option>State 4</option>
+                                </select>
+                            </div>
+                            <div class=" col-lg-4 col-md-12 col-sm-12">
+                                <label for="inputZip">Pin Code</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                        </div>
+                        <button type="submit" class="only-button btn  btn-lg  ">Sign up</button>
+                    </form>   
+                </div>
+            </div>   
+        </div>
+    </section>
+</body>
+</html>
